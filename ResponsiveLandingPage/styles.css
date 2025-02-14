@@ -1,0 +1,79 @@
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation Menu */
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  nav.scrolled {
+    background-color: #0d8c0f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+    color: rgb(0, 255, 42);
+    border-radius: 4px;
+  }
+  
+  section {
+    padding: 100px 20px;
+    min-height: 100vh;
+  }
+  
+  .hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .about, .services, .contact {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .about h2, .services h2, .contact h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .about p, .services p, .contact p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
